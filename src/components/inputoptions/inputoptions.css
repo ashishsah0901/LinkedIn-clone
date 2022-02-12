@@ -1,0 +1,29 @@
+.inputoptions {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: gray;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.inputoptions:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.inputoptions > h4 {
+    margin-left: 5px;
+}
+
+@media (max-width: 425px) {
+    .inputoptions {
+        flex-direction: column;
+    }
+
+    .inputoptions > h4 {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
